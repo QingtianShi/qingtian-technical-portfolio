@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 190">
+  <rect width="360" height="190" fill="#9f102c"/>
+  <circle cx="340" cy="-5" r="112" fill="#c51c3d"/>
+  <circle cx="332" cy="198" r="125" fill="#7d1027"/>
+  <g fill="none" stroke="#fff" stroke-width="3" stroke-linejoin="round">
+    <rect x="30" y="45" width="55" height="38" rx="4"/>
+    <path d="M30 58h55M57.5 45v38M58 45c-29-3-15-26 0 0 15-26 29-3 0 0z"/>
+  </g>
+  <text x="30" y="140" fill="#fff" font-family="sans-serif" font-size="26" font-weight="700">AirAsia Rewards</text>
+  <text x="31" y="164" fill="#ffdce2" font-family="sans-serif" font-size="13" letter-spacing="3">GIFT CARD</text>
+</svg>

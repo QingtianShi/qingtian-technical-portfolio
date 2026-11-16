@@ -1,0 +1,9 @@
+Tool: ChatGPT (Codex)
+User request: “完成” (“complete it”), following the uploaded AirAsia HW3 handout.
+Task context: Build the five Gift Card pages, shared templates, PDO and SQLite setup, validation harness, use-case traceability, and test documentation specified by the handout.
+
+AI drafted the PHP pages, a schema checked against the Air Asia requirements document, seed data, server-side validation, SQL scripts, and the test plan. The build uses a seeded classroom database with synthetic records.
+
+Design decision reviewed: The deletion workflow uses a GET confirmation page and a confirmed POST. The PHP handler places the DELETE statement inside the POST condition and requires the confirmation value before executing the prepared statement.
+
+Verification completed: SQLite integrity check, row counts, schema/seed rebuild, and SQLite constraint checks. In Codespaces, the PHP validation harness reported seven passing checks. Browser results for the gift card workflows and invalid input are recorded in test-report.md. The official requirements specify the columns and card type length. The demo category allowlist fills a gap in the document.
